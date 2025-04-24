@@ -20,6 +20,9 @@ class Program
             case 4: FirstNegativeInJaggedArray(); break;
             default: Console.WriteLine("Невірний вибір."); break;
         }
+
+        Console.WriteLine("\nНатисніть будь-яку клавішу для завершення...");
+        Console.ReadKey();
     }
 
     static void ArraySumMenu()
